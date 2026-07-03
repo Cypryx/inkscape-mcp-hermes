@@ -1,0 +1,48 @@
+# Inkscape MCP Server Configuration
+
+# Inkscape Configuration
+inkscape_executable: "C:\\Program Files\\Inkscape\\bin\\inkscape.exe"
+
+# Performance Settings
+max_concurrent_processes: 3
+process_timeout: 30
+
+# File Handling
+temp_directory: "C:\\Users\\smeefer\\AppData\\Local\\Temp"
+max_file_size_mb: 100
+preserve_metadata: true
+auto_cleanup: true
+cleanup_interval: 3600
+
+# Image Processing Defaults
+default_quality: 95
+default_interpolation: "lanczos"
+
+# Supported formats
+supported_formats:
+  - "svg"
+  - "pdf"
+  - "png"
+  - "jpeg"
+  - "jpg"
+  - "webp"
+  - "eps"
+  - "ps"
+  - "ai"
+  - "cdr"
+  - "wmf"
+  - "emf"
+
+# Batch Processing
+enable_batch_operations: true
+batch_size_limit: 50
+
+# Extension System
+enable_extensions: true
+
+# Logging and Debug
+log_level: "INFO"
+enable_performance_logging: false
+
+# Security Settings
+enable_file_validation: true
